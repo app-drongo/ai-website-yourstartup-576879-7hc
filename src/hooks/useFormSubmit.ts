@@ -48,7 +48,7 @@ export function useFormSubmit(): UseFormSubmitResult {
       });
 
       // Get API URL - defaults to production backend for deployed previews
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://api.webline.ai';
+      const apiUrl = "http://localhost:6100";
 
       console.log('📤 Submitting form:', {
         formId,
