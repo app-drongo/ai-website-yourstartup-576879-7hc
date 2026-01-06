@@ -1,0 +1,19 @@
+{
+  "projectId": "695d0b4994da37975db9345a",
+  "userId": "unknown",
+  "workspaceId": "default",
+  "accountId": "default",
+  "buildConfig": {
+    "nodeVersion": "20",
+    "buildCommand": "npm run build",
+    "outputDirectory": "out",
+    "buildTimeout": 180000
+  },
+  "deployment": {
+    "provider": "cloudflare-r2",
+    "bucket": "preview-sites",
+    "basePath": "sites/695d0b4994da37975db9345a",
+    "makePublic": true,
+    "workerUrl": "https://static-site-server.rachid-regti.workers.dev"
+  }
+}
